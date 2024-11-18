@@ -16,24 +16,22 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Boishakh",
   description: "An LLM model for bengali literature.",
+  authors: [
+    {
+      name: "Akash Lohar",
+    },
+  ],
   openGraph: {
-    title: "Boishakh AI",
-    description: "An LLM model for bengali literature.",
-    url: "https://boishakh-wine.vercel.app/",
-    siteName: "Boishakh",
     images: [
       {
-        url: "https://boishakh-64vjvlrvo-chupa-cabra.vercel.app/boishakh.png",
-        width: 400,
-        height: 400,
+        url: "/boishakh.png",
+        width: 1200,
+        height: 630,
       },
     ],
   },
   twitter: {
-    card: "summary_large_image",
-    title: "Boishakh AI",
-    description: "An LLM model for bengali literature.",
-    images: ["https://boishakh-64vjvlrvo-chupa-cabra.vercel.app/boishakh.png"],
+    images: ["/boishakh.png"],
   },
 };
 
