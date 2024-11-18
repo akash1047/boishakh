@@ -29,6 +29,12 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Boishakh AI",
+    description: "An LLM model for bengali literature.",
+    images: ["/boishakh.png"],
+  },
 };
 
 export default function RootLayout({
