@@ -31,7 +31,13 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    images: ["/boishakh.png"],
+    images: [
+      {
+        url: "/boishakh.png",
+        width: 1200,
+        height: 628,
+      },
+    ],
   },
 };
 
