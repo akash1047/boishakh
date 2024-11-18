@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "Boishakh",
     images: [
       {
-        url: "/boishakh.png",
+        url: "https://boishakh-64vjvlrvo-chupa-cabra.vercel.app/boishakh.png",
         width: 400,
         height: 400,
       },
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Boishakh AI",
     description: "An LLM model for bengali literature.",
-    images: ["/boishakh.png"],
+    images: ["https://boishakh-64vjvlrvo-chupa-cabra.vercel.app/boishakh.png"],
   },
 };
 
